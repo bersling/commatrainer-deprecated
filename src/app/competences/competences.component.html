@@ -1,0 +1,11 @@
+<div class="app-container wrapper" *ngIf="competences && competences.length > 0">
+	<h2 class="app-title title">Deine Kompetenzen</h2>
+	<div class="competences">
+		<ng-container *ngFor="let comp of competences">
+      <div class="comp" *ngIf="competenceExists(comp.key)">
+        <app-progress [correct]="comp.value?.numCorrect" [total]="comp.value?.numTotal"></app-progress>
+        <span class="comp-key">{{comp.key}}</span>: {{getDescription(comp.key)}}
+      </div>
+		</ng-container>
+	</div>
+</div>

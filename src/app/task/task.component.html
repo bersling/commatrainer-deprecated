@@ -1,0 +1,29 @@
+<!-- <app-instructions [task]="task"></app-instructions> -->
+<div class="wrapper">
+	<div class="action-area">
+		<div class="main-grading" *ngIf="grading" [ngClass]="grading.correct">
+			<mat-icon *ngIf="isCorrect()">check</mat-icon>
+      <mat-icon *ngIf="isWrong()">close</mat-icon>
+    </div>
+    <ng-container [ngSwitch]="task.type">
+      <ng-container *ngSwitchCase="'COMMA'">
+        <app-comma-task [task]="task" [grading]="grading" (inputChange)="onInputChange($event)">
+        </app-comma-task>
+      </ng-container>
+    </ng-container>
+  </div>
+  <div *ngIf="grading && task.feedback">
+    {{task.feedback}}
+  </div>
+  <div class="controls">
+		<button [disabled]="!input" class="app-button" (click)="onSubmit()" *ngIf="!grading">
+      Antworten
+    </button>
+    <button class="app-button" (click)="next()" *ngIf="grading">
+      Weiter
+    </button>
+  </div>
+  <div *ngIf="grading" class="comp">
+    <!-- <b class="comp-id">{{task.competence}}</b>: {{getDescription()}} -->
+  </div>
+</div>

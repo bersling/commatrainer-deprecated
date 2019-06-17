@@ -1,0 +1,12 @@
+@import '../../variables';
+
+:host {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+
+.delete-button {
+  color: $color-action;
+  cursor: pointer;
+}

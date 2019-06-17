@@ -1,0 +1,12 @@
+<!-- // TODO: this is (mostly) duplicated, don't do this... -->
+<div class="content">
+	<span class="word"
+        *ngFor="let word of words; index as i">
+    <span>{{word.text}}</span>
+    <span class="separator-container"
+          [ngClass]="getNgGradingClass(i)">
+      <span *ngIf="isCommaSeparator(word)" class="separator comma token">,</span>
+      <span class="whitespace token">{{' '}}</span>
+    </span>
+  </span>
+</div>

@@ -1,0 +1,6 @@
+<app-jumbo></app-jumbo>
+<app-task *ngIf="!reloading && task" [task]="task" class="centered-task app-padded" (loadNext)="onLoadNext()">
+</app-task>
+<app-competences></app-competences>
+<app-stats></app-stats>
+<app-footer></app-footer>

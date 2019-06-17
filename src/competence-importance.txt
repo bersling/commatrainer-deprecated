@@ -1,0 +1,88 @@
+Meine Regeln
+
+1) Jedem Verb sein Komma!
+2) Achte auf das Wörtchen "zu": Es erfordert fast immer ein Komma
+3) Steht das Wörtchen "zu" in Kombination mit einem Hilfsverb, so steht kein Komma
+4) Bei Erläuterungen und Zusätzen wird ein Komma gesetzt
+
+
+k1 Komma bei Aufzählungen
+k1_1 Elemente von Aufzählungen werden durch ein Komma getrennt.
+k1_2 Zwischen Elementen von Aufzählungen, die mit "und" verbunden sind, steht kein Komma.
+k1_3 Zwischen Elementen von Aufzählungen, die mit "oder" verbunden sind, steht kein Komma.
+k1_4 Zwischen nicht gleichrangigen Elementen steht kein Komma.
+k1_5 Manchmal ist es unklar, ob Gleichrangigkeit vorliegt. In diesem Fall ist das Komma optional.
+
+k7 Kann man einen Teil vom Satz weglassen, so wird er meist durch ein Komma abgetrennt beziehungsweise von Kommas eingeschlossen.
+
+k8 Missing
+k8_1 Satzteile mit "um zu" werden durch ein Komma abgetrennt.
+k8_2 Satzteile mit "ohne zu" werden durch ein Komma abgetrennt.
+k8_3 Satzteile mit "ausser zu" werden durch ein Komma abgetrennt.
+k8_4 Satzteile mit "statt zu" werden durch ein Komma abgetrennt.
+k8_5 Satzteile mit "als zu" werden durch ein Komma abgetrennt.
+
+k9 Das Komma trennt die Teile von Datumsangaben
+k10 Das Komma trennt die Teile von Wohnungsangaben
+k11 Das Komma trennt die Teile von Literaturangaben
+k12 Mehrteilige Gesetze trennt man nicht durch Komma
+
+k13_1 Vor "aber" steht ein Komma
+k13_2 Vor "andererseits" steht ein Komma
+k13_3 Vor "sondern" steht ein Komma
+k13_4 Vor "sowie" steht kein Komma
+k13_5 Vor "beziehungsweise" steht kein Komma
+k13_6 Bei "sowohl / als auch" steht kein Komma
+k13_7 Bei "weder / noch" steht kein Komma
+
+k14_1 Komma bei bald / bald
+k14_2 Komma bei teils / teils
+k14_3 Komma bei je / desto
+k14_4 Komma bei halb / halb
+k14_5 Komma bei nicht nur / sondern auch.
+
+
+============
+d121
+d100
+d101
+d103
+d104
+d124
+d105_1
+d105_2
+d111 (zusammenfassen, vielleicht auch in d100 integrieren)
+d111s (zusätze werden ja eigentlich schon behandelt)
+d108
+d109
+d106_1 (Aber Beschreibung vereinfachen zu "bei nachgestellten Zusätzen kommen Kommas" ?)
+d110_1
+d110_2
+d117 "bei wörtern mit "zu" kommt ein komma [Aussnahmen: 117s]
+d117s ausser sie sind mit dem Hauptsatz abhängig/verflochten.
+d118, d118s
+d120, d120s
+d129
+d132_1
+d132_2
+------
+d131
+d125
+d122
+d123
+d119 das ist für mich einfach konjunktionen...
+d112 (sieht aus als wäre das schon covered...)
+d113 (covered durch d100)
+d114 everything is optional and the description is very complicated...
+d115 kann alles als einschub betrachtet werden... und wir wollen nichts über partizipgruppen wissen...
+d105_3
+d103s
+d107*
+d100s
+d102_1
+d101s
+d102_2
+d106_2
+d127
+d126
+d130

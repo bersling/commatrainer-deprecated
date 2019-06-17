@@ -1,0 +1,22 @@
+<div class="app-container app-padded" *ngIf="stats && stats.length > 0">
+	<div class="app-center">
+		<!-- <button class="app-button" (click)="toggleStats()">Historie {{display ? 'Aus' : 'Ein'}}blenden</button> -->
+		<h2 class="app-title">Historie</h2>
+	</div>
+	<div *ngIf="display">
+		<div class="app-center">
+			<button (click)="onlyDisplayWrong = !onlyDisplayWrong" class="app-button">{{onlyDisplayWrong ? 'Alle anzeigen'
+				: 'Nur falsche anzeigen'}}</button>
+		</div>
+    <br>
+		<div *ngFor="let entry of filteredStats.slice().reverse()" class="entry">
+			<mat-icon *ngIf="isCorrect(entry.grading)" [ngClass]="entry.grading.correct">check</mat-icon>
+			<mat-icon *ngIf="isWrong(entry.grading)" [ngClass]="entry.grading.correct">close</mat-icon>
+			<ng-container [ngSwitch]="entry.task.type">
+				<ng-container *ngSwitchCase="'COMMA'">
+					<app-comma-stat [grading]="entry.grading" [input]="entry.input"></app-comma-stat>
+				</ng-container>
+			</ng-container>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,13 @@
+<div class="content">
+	<span class="word"
+        *ngFor="let word of words; index as i">
+    <span>{{word.text}}</span>
+    <span class="separator-container"
+          [matTooltip]="getTooltip(word.competence)"
+          [ngClass]="getNgGradingClass(i)">
+      <div class="clickable-area" [ngClass]="commaCursorNgClass" (click)="onClickWord(i)"></div>
+      <span *ngIf="isCommaSeparator(word)" class="separator comma token">,</span>
+      <span class="whitespace token">{{' '}}</span>
+    </span>
+  </span>
+</div>

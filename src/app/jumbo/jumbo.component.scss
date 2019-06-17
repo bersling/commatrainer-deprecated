@@ -1,0 +1,25 @@
+@import '../../variables';
+
+:host {
+  display: block;
+  background: $color-bg-dark;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.description {
+  color: $color-bg-dark-compl;
+  font-size: 14px;
+}
+
+.jumbo-title {
+  display: inline-block;
+  font-size: 50px;
+  border-bottom: 2px solid $color-bg-dark-compl;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $color-bg-dark-compl;
+}
+
+

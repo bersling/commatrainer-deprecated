@@ -1,0 +1,66 @@
+@import '../../variables';
+
+.content {
+  white-space: pre-wrap;
+  font-size: 25px;
+  font-family: $font-serif;
+}
+
+.comma-cursor {
+  &:hover {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="45"><circle cx="12" cy="12" r="10" fill="white" fill-opacity="0.9" stroke="black" stroke-width="2"/><text x="5" y="12" style="font-size: 40px;">,</text></svg>') 12 12, auto;
+  }
+}
+
+%circle {
+  content: '';
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: -22px;
+  border-radius: 50%;
+  opacity: 0.3;
+  top: -5px;
+}
+
+.separator-container {
+
+  position: relative;
+
+  .token {
+    border-radius: 2px;
+    width: 6px;
+  }
+
+  &.correct {
+    &::after {
+      @extend %circle;
+      background: $color-correct;
+    }
+  }
+
+  &.wrong {
+    &::after {
+      @extend %circle;
+      background: $color-wrong;
+    }
+  }
+
+  &.optional {
+    &::after {
+      @extend %circle;
+      border: 2px dashed $color-correct;
+      opacity: 0.6;
+    }
+  }
+
+  .clickable-area {
+    $clickable-area-width: 30px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -$clickable-area-width/2;
+  }
+
+}

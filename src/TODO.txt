@@ -1,0 +1,6 @@
+Todos for this app (prioritized):
+
+- bring data format into a form that you like it
+- decide: 1 competence per task or per whitespace?
+- more content
+- decide how to go about optional commas, "paarige kommas"

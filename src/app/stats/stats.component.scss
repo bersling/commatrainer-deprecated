@@ -1,0 +1,19 @@
+@import '../../variables';
+
+:host {
+  display: block;
+  background: $color-bg-white;
+}
+
+.CORRECT {
+  color: $color-correct;
+}
+.WRONG {
+  color: $color-wrong;
+}
+
+.entry {
+  display: flex;
+  border-bottom: 1px solid $color-marker;
+  align-items: center;
+}

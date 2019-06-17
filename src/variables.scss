@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+$white: #ffffff;
+$black: #000000;
+
+$dark-gray: #1E1E1E;
+
+// Color-Scheme v1
+// $color-bg: #FFD966;
+// $color-bg-complement: $black;
+// $color-bg-light: #FFF2CC;
+// $color-marker: #EA732D;
+// $color-marker-complement: $white;
+// $color-action: #0093BA;
+// $color-action-complement: $white;
+// $color-title: #88BF40;
+
+// Color-Scheme v2
+$color-primary: rgb(199, 212, 211);
+$color-primary-compl: $white;
+
+$color-primary-accent: rgb(0, 209, 192);
+$color-primary-accent-compl: white;
+
+$color-secondary: #1557D7;
+$color-secondary-compl: $white;
+
+$color-select: rgb(192, 233, 229);
+
+$color-bg: rgb(200, 221, 218);
+$color-bg-complement: $black;
+
+$color-bg-white: $white;
+
+$color-bg-dark: #007E75;
+$color-bg-dark-compl: $white;
+
+
+$color-bg-dark-gray: #1f1f1f;
+$color-bg-dark-gray-compl: $white;
+
+$color-marker: $color-secondary;
+$color-marker-complement: $white;
+
+$color-action: $color-secondary;
+$color-action-complement: $color-secondary-compl;
+
+$color-title: $dark-gray;
+
+$color-correct: $color-primary-accent;
+$color-wrong: #ff4e4e;
+$color-wrong-dark: darken($color-wrong, 30%);
+$background-correct: lighten($color-correct, 30%);
+$background-wrong: lighten($color-wrong, 30%);
+
+$font-title: 'Dancing Script', cursive;
+$font-action: 'Roboto', sans-serif;
+$font-serif: 'Source Serif Pro', serif;
+$font-body: $font-serif;
+

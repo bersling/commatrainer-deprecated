@@ -1,0 +1,23 @@
+1. Make kommatrainer the best tool for learning kommas available.
+2. Gather data valuable data for research purposes.
+3. Become the predominant way to learn kommas online in Switzerland and Germany
+
+How can we make kommatrainer the best tool for learning kommas available?
+- It needs to have an abundance of examples
+- It needs to give specific feedback
+- It needs to have a recommender
+  - Content is prioritized by occurrence in language
+  - Recommendations consider student level
+- It needs "fun" examples?
+- It needs real life examples
+
+How can we make kommatrainer a valuable tool for research?
+- Gather all important information about student inputs:
+  - timestamp, user, input, stimulus
+- Answer some interesting questions:
+  - Which comma rules are moste often done wrong?
+  - How engaging is a recommender?
+- We don't want too many tasks or usually start with the same task, in order to have much information about some of the tasks...
+
+How can we become the predominant way to learn commas?
+- Ads ads ads... Facebook, twitter, stickers, inbound links, ...
